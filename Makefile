@@ -2,8 +2,7 @@
 # Makefile for List_dynamic_array
 #
 CXX = clang++
-FLAGS =  -g -Wall -Wextra -Wconversion \
-         -Wno-sign-conversion -Wno-shorten-64-to-32 -Wno-unused-parameter
+FLAGS =  -g -Wall 
 
 cards_dynamic_array: List_dynamic_array.cpp List_dynamic_array.h \
      card.h card.cpp hand.h hand.cpp main.cpp
