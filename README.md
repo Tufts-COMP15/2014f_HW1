@@ -1,5 +1,5 @@
 # ReadMe for COMP 15 HW1 
-# Dynamic Arrays
+## Dynamic Arrays
 
 Every assignment you submit you will include a ReadMe file. The name
 could be ReadMe, readme, Read-me.txt, readME, README.md (the “.md”
