@@ -1,4 +1,4 @@
-# README for COMP 15 HW1 - Dynamic Arrays
+# ReadMe for COMP 15 HW1 - Dynamic Arrays
 
 Every assignment you submit you will include a ReadMe file. The name
 could be ReadMe, readme, Read-me.txt, readME, README.md (the “.md”
@@ -6,11 +6,11 @@ stands for “markdown,” which allows lightweight formatting) or almost
 anything you like that has the word read followed by the word me. Exact
 spelling is not important, the contents are.
 
-The purpose of the readme file is the same as the little paper insert
+The purpose of the ReadMe file is the same as the little paper insert
 you get in a new appliance -- to give the reader an introduction and
 overview of the product.
 
-Your README file for the assignments **must** include:
+Your ReadMe file for the assignments **must** include:
 
 1.  The purpose of your program
 
@@ -22,14 +22,14 @@ Your README file for the assignments **must** include:
 
 5.  Outline of algorithm (depending on the assignment)
 
-The readme file shows the reader, in a quick glance, what the program is
+The ReadMe file shows the reader, in a quick glance, what the program is
 about and gives a general idea of how it works. For short programs the
 readme file will be short, for more complicated programs the readme file
 will be longer.
 
-Use outline form rather than long discursive paragraphs. A readme file
+Use outline form rather than long discursive paragraphs. A ReadMe file
 is an overview.
 
 There is no correct readme format; within these guidelines, devise your
-own style.\
+own style.
 
