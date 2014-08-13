@@ -14,5 +14,5 @@ clean:
 make provide:
 	provide comp15 hw1 main.cpp List_dynamic_array.cpp List_dynamic_array.h \
 	        hand.cpp hand.h card.cpp card.h \
-	        readme.txt Makefile
+	        ReadMe.md Makefile
 
