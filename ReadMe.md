@@ -2,7 +2,7 @@
 ## Dynamic Arrays
 
 Every assignment you submit you will include a ReadMe file. The name
-could be ReadMe, readme, Read-me.txt, readME, README.md (the “.md”
+could be ReadMe, readme, Read-me.txt, readME, ReadMe.md (the “.md”
 stands for “markdown,” which allows lightweight formatting) or almost
 anything you like that has the word read followed by the word me. Exact
 spelling is not important, the contents are.
