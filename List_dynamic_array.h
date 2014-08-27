@@ -20,6 +20,12 @@ class List_dynamic_array
 {
 public:
 	List_dynamic_array(); // constructor
+	// copy constructor
+	List_dynamic_array(const List_dynamic_array& source);
+
+	// operator= overload
+	List_dynamic_array operator =(const List_dynamic_array& source);
+
 	~List_dynamic_array(); // destructor
 	
 	void print_list(); // prints the list in human-readable form
