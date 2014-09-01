@@ -173,17 +173,18 @@ There are two ways to get the files for this assignment. The first is by copying
 
 Method 1: copy files from the class folder
 
-First make a directory called orderedListAssignment
+First ssh to the homework server and, and make a directory called orderedListAssignment
 
-“mkdir hw1”
+ssh -X your_cs_username@homework.cs.tufts.edu
+mkdir hw1
 
 change into that directory
 
-“cd hw1”
+cd hw1
 
-At the command prompt, enter 
+At the command prompt, enter (don’t forget the period):
 
-“cp /comp/15/public_html/assignments/hw1/files/* .”
+cp /comp/15/public_html/assignments/hw1/files/* .
 
 
 Method 2: pull from GitHub:
@@ -195,6 +196,69 @@ At the command prompt, enter
 change into the directory that git created:
 
 “cd hw1”
+
+Using Eclipse (assuming you have followed the steps above to get the files):
+See online video https://www.youtube.com/watch?v=BbnLZ2oqrD0
+If in the lab, simply open Eclipse, and then start following from step 6 below.
+If at home, ensure that you have installed (Mac) XQuartz, or (Windows) Cygwin (see here: https://www.youtube.com/watch?v=BbnLZ2oqrD0 ) or (Win) putty and XMing (http://sourceforge.net/projects/xming/).
+ssh to the homework server using the -X argument:
+	ssh -X your_cs_username@homework.cs.tufts.edu
+start eclipse by typing “eclipse” (no quotes)
+
+6. Use the following steps to set up your project (you’ll get used to the steps quickly, steps A & B only need to be done once at the beginning of the course):
+	A. Default location for your workspace is fine
+	B. Window->Preferences
+   General->Editors->Text Editors
+      Displayed tab width (8) (recommended)
+      Show print margin: 80 col
+      Show line numbers
+   C/C++ -> Code Style
+      Select K&R [built-in] and then "Edit"
+      Change Tab size to 8 (recommended)
+	Click “Apply” then “Ok”
+
+	C. File->New C++ Project
+    Fill in project name (no spaces!) IMPORTANT: the name CANNOT
+      be exactly the same as your folder name. I suggest to
+      simply put name_project (with the _project) for all project
+      names (e.g., hw1_project)
+    Use default location should be checked.
+    Select Empty Project->Linux GCC
+    Click Next
+    Click "Advanced Settings"
+    (there is a bug in the setup that means you MUST follow steps
+     1 and 2 below in order):
+    1. On the left, under C/C++ General->Paths and Symbols (left hand side)
+       (you may have to click on the triangle next to C/C++ General)
+      Select "[ Debug ]" at the top for Configuration
+      Source Location Tab
+        Click "Link Folder"
+        Check "Link to folder in the file system"
+        Browse to find your folder.
+        (should be something like h/your_username/hw1)
+        Click OK
+        Click Apply
+    
+    2. C++ Build->Settings (may have to click on the triangle)
+      For Configuration (at the top), select [ All configurations ]
+      GCC C++ Compiler: Command should be "clang++" (no quotes)
+      GCC C Compiler: Command: clang
+      GCC C++ Linker: Command: clang++
+      Click "Apply"
+      Click OK
+
+    Click Finish
+
+D. Click on the white triangle next to your project name.
+   The folder you linked to should be listed. Click on its
+     triangle.
+   The files in that folder should be listed.
+   
+E. Test the build by clicking on the hammer in the icon bar.
+    You should see some compiling messages in the Console window
+      at the bottom. (Things like, "Building file...; clang++, etc.)
+
+F. The program will compile, but will have many warnings. You need to write the functions — double-click on List_dynamic_array.h to see the header file and List_dynamic_array.cpp to see the code. “TODO:” shows you where you need to write the code.
 
 Compiling and running:
 At the command prompt, enter “make” and press enter or return to compile.
