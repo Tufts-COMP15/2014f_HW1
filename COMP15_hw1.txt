@@ -207,18 +207,18 @@ start eclipse by typing “eclipse” (no quotes)
 
 6. Use the following steps to set up your project (you’ll get used to the steps quickly, steps A & B only need to be done once at the beginning of the course):
 	A. Default location for your workspace is fine
-	B. Click on “Workbench”
-	B. Window->Preferences
+	B. Click on “Workbench”, then click “Window->Open Perspective->Other”, and choose C++
+	C. Window->Preferences
    General->Editors->Text Editors
       Displayed tab width (8) (recommended)
       Show print margin: 80 col
       Show line numbers
    C/C++ -> Code Style
-      Select K&R [built-in] and then "Edit"
+      Select K&R [built-in] and then “Edit”, then rename to “K&R 8-tab”
       Change Tab size to 8 (recommended)
 	Click “Apply” then “Ok”
 
-	C. File->New C++ Project
+	D. File->New C++ Project
     Fill in project name (no spaces!) IMPORTANT: the name CANNOT
       be exactly the same as your folder name. I suggest to
       simply put name_project (with the _project) for all project
@@ -250,16 +250,16 @@ start eclipse by typing “eclipse” (no quotes)
 
     Click Finish
 
-D. Click on the white triangle next to your project name.
+E. Click on the white triangle next to your project name.
    The folder you linked to should be listed. Click on its
      triangle.
    The files in that folder should be listed.
    
-E. Test the build by clicking on the hammer in the icon bar.
+F. Test the build by clicking on the hammer in the icon bar.
     You should see some compiling messages in the Console window
       at the bottom. (Things like, "Building file...; clang++, etc.)
 
-F. The program will compile, but will have many warnings. You need to write the functions — double-click on List_dynamic_array.h to see the header file and List_dynamic_array.cpp to see the code. “TODO:” shows you where you need to write the code.
+G. The program will compile, but will have many warnings. You need to write the functions — double-click on List_dynamic_array.h to see the header file and List_dynamic_array.cpp to see the code. “TODO:” shows you where you need to write the code.
 
 Compiling and running:
 At the command prompt, enter “make” and press enter or return to compile.
