@@ -207,6 +207,7 @@ start eclipse by typing “eclipse” (no quotes)
 
 6. Use the following steps to set up your project (you’ll get used to the steps quickly, steps A & B only need to be done once at the beginning of the course):
 	A. Default location for your workspace is fine
+	B. Click on “Workbench”
 	B. Window->Preferences
    General->Editors->Text Editors
       Displayed tab width (8) (recommended)
