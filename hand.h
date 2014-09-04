@@ -19,7 +19,7 @@ public:
 	Card deal_card_from_top(Hand &h); // deals a card from the top of the 
 					  // hand (the last card)
 	Card deal_card_from_bottom(Hand &h); // deals a card from the bottom of 
-					     // the hand (the first card
+					     // the hand (the first card)
 
 	bool has_card(Card c); // returns true if the hand contains the card
 	void create_deck(); // creates a standard 52-card deck
