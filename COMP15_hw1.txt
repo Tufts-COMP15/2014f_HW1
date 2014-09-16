@@ -264,7 +264,7 @@ G. The program will compile, but will have many warnings. You need to write the 
 
 Compiling and running:
 At the command prompt, enter “make” and press enter or return to compile.
-At the command prompt, enter “./cards_dynamic_array” and press return to run the new program.
+At the command prompt, enter “./hw1” and press return to run the new program.
 
 
 Providing:
