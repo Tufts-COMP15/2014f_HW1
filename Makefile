@@ -11,7 +11,7 @@ cards_dynamic_array: List_dynamic_array.cpp List_dynamic_array.h \
 clean:
 	rm -f hw1
 
-make provide:
+provide:
 	provide comp15 hw1 main.cpp List_dynamic_array.cpp List_dynamic_array.h \
 	        hand.cpp hand.h card.cpp card.h \
 	        ReadMe.md Makefile
