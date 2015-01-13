@@ -1,11 +1,8 @@
 # ReadMe for COMP 15 HW1 
 ## Dynamic Arrays
 
-Every assignment you submit you will include a ReadMe file. The name
-could be ReadMe, readme, Read-me.txt, readME, ReadMe.md (the “.md”
-stands for “markdown,” which allows lightweight formatting) or almost
-anything you like that has the word read followed by the word me. Exact
-spelling is not important, the contents are.
+Every assignment you submit you will include a ReadMe.md file (the “.md”
+stands for “markdown,” which allows lightweight formatting).
 
 The purpose of the ReadMe file is the same as the little paper insert
 you get in a new appliance -- to give the reader an introduction and
